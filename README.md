@@ -10,7 +10,7 @@
 ## Instalação
 *  Instale o [Python 3.6 ou superior. Você pode baixá-lo](https://www.python.org/downloads/)
 
-# Instale o Robot Framework executando o seguinte comando:
+* *Instale o* [Robot Framework] *executando o seguinte comando:*
 
 <code>pip install robotframework</code>
 Instale a biblioteca Selenium para Robot Framework executando o seguinte comando:
