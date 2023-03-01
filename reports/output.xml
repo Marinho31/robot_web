@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 6.0.2 (Python 3.10.7 on win32)" generated="20230225 22:16:06.042" rpa="false" schemaversion="3">
+<robot generator="Robot 6.0.2 (Python 3.10.7 on win32)" generated="20230225 23:10:29.284" rpa="false" schemaversion="3">
 <suite id="s1" name="Primeiro Acesso" source="C:\Qa\robot_web\test\primeiro_acesso.robot">
 <test id="s1-t1" name="Navegar na amazon" line="12">
 <kw name="Abrir navegador" library="resources" type="SETUP">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>browser=${BROWSER}</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20230225 22:16:06.206" level="INFO">Opening browser 'Chrome' to base url 'None'.</msg>
-<status status="PASS" starttime="20230225 22:16:06.205" endtime="20230225 22:16:07.342"/>
+<msg timestamp="20230225 23:10:29.594" level="INFO">Opening browser 'Chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20230225 23:10:29.594" endtime="20230225 23:10:31.066"/>
 </kw>
 <kw name="Maximize Browser Window" library="SeleniumLibrary">
 <doc>Maximizes current browser window.</doc>
-<status status="PASS" starttime="20230225 22:16:07.342" endtime="20230225 22:16:07.463"/>
+<status status="PASS" starttime="20230225 23:10:31.066" endtime="20230225 23:10:31.218"/>
 </kw>
-<status status="PASS" starttime="20230225 22:16:06.205" endtime="20230225 22:16:07.464"/>
+<status status="PASS" starttime="20230225 23:10:29.594" endtime="20230225 23:10:31.218"/>
 </kw>
 <kw name="Given acessar a página home" library="base.primeiro_acesso">
 <kw name="Go To" library="SeleniumLibrary">
 <arg>url=${URL}</arg>
 <doc>Navigates the current browser window to the provided ``url``.</doc>
-<msg timestamp="20230225 22:16:07.465" level="INFO">Opening url 'https://www.amazon.com.br/'</msg>
-<status status="PASS" starttime="20230225 22:16:07.465" endtime="20230225 22:16:14.452"/>
+<msg timestamp="20230225 23:10:31.218" level="INFO">Opening url 'https://www.amazon.com.br/'</msg>
+<status status="PASS" starttime="20230225 23:10:31.218" endtime="20230225 23:10:43.021"/>
 </kw>
-<status status="PASS" starttime="20230225 22:16:07.464" endtime="20230225 22:16:14.453"/>
+<status status="PASS" starttime="20230225 23:10:31.218" endtime="20230225 23:10:43.021"/>
 </kw>
 <kw name="When Verificar o titulo da pagina" library="base.primeiro_acesso">
 <kw name="Wait Until Element Is Visible" library="SeleniumLibrary">
 <arg>${BOTAO_ELETRONICOS}</arg>
 <doc>Waits until the element ``locator`` is visible.</doc>
-<status status="PASS" starttime="20230225 22:16:14.453" endtime="20230225 22:16:14.477"/>
+<status status="PASS" starttime="20230225 23:10:43.021" endtime="20230225 23:10:43.078"/>
 </kw>
-<status status="PASS" starttime="20230225 22:16:14.453" endtime="20230225 22:16:14.477"/>
+<status status="PASS" starttime="20230225 23:10:43.021" endtime="20230225 23:10:43.078"/>
 </kw>
 <kw name="Fechar navegador" library="resources" type="TEARDOWN">
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20230225 22:16:14.478" endtime="20230225 22:16:16.654"/>
+<status status="PASS" starttime="20230225 23:10:43.080" endtime="20230225 23:10:45.320"/>
 </kw>
-<status status="PASS" starttime="20230225 22:16:14.477" endtime="20230225 22:16:16.654"/>
+<status status="PASS" starttime="20230225 23:10:43.078" endtime="20230225 23:10:45.320"/>
 </kw>
-<status status="PASS" starttime="20230225 22:16:06.205" endtime="20230225 22:16:16.654"/>
+<status status="PASS" starttime="20230225 23:10:29.580" endtime="20230225 23:10:45.320"/>
 </test>
-<status status="PASS" starttime="20230225 22:16:06.044" endtime="20230225 22:16:16.655"/>
+<status status="PASS" starttime="20230225 23:10:29.287" endtime="20230225 23:10:45.322"/>
 </suite>
 <statistics>
 <total>
