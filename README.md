@@ -33,7 +33,9 @@ Instale a biblioteca Selenium para Robot Framework executando o seguinte comando
 *Para definir essas variáveis de ambiente, você pode adicionar as seguintes linhas ao seu arquivo de configuração do sistema (por exemplo,* **~/.bashrc no Linux ou ~/Documents/WindowsPowerShell/profile.ps1 no Windows):**
 
 <code>export PATH=$PATH:/caminho/para/o/webdriver</code>
+
 <code>export PYTHONPATH=$PYTHONPATH:/caminho/para/a/biblioteca/selenium</code>
+
 <code>export BROWSER=Chrome</code>
 
 *Lembre-se de substituir "/caminho/para/o/webdriver" e "/caminho/para/a/biblioteca/selenium" pelos diretórios corretos em seu sistema.* 
