@@ -13,7 +13,8 @@
 * *Instale o* [Robot Framework] *executando o seguinte comando:*
 
 <code>pip install robotframework</code>
-Instale a biblioteca Selenium para Robot Framework executando o seguinte comando:
+
+*Instale a biblioteca Selenium para Robot Framework executando o seguinte comando:*
 
 <code>pip install robotframework-seleniumlibrary</code>
 
